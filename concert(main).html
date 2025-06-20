@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Concert</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .main-container {
+      background-image: url('m1.avif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .main {
+      margin-top: 100px;
+    }
+
+    .main h1 {
+      font-size: 50px;
+    }
+
+    .main p {
+      margin-top: 15px;
+      font-size: 25px;
+    }
+
+    .main button {
+      margin-top: 40px;
+      padding: 10px 20px;
+      border: 1px solid rgb(42, 15, 15);
+      background: rgb(173, 15, 15);
+      color: rgb(30, 2, 2);
+      font-size: 19px;
+      cursor: pointer;
+    }
+    .main button:hover{
+      background-color: rgb(225, 100, 132);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main-container">
+    <header>
+      <nav>
+        <div class="logo">Music Concert</div>
+        <ul>
+          <li><a href="concert about.html">About</a></li>
+          <li><a href="signin.html">signin</a></li>
+          <li><a href="concert contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="main">
+      <h1>'Music Concert'</h1>
+      <p>Echoes of the heart Live on stage</p>
+      <a href="signup1.html"><button>Sign Up For Free</button></a>
+    </section>
+  </div>
+
+</body>
+</html>
